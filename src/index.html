@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+    <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+
+</head>
+
+<body>
+    <header class="bg-[#f4f4f5]">
+        <nav class="px-[20px] py-[20px] flex justify-between lg:px-[100px] lg:py-[30px]">
+            <img src="./лого.png" alt="">
+            <ul class="hidden lg:block lg:flex items-center gap-[50px]">
+                <li class="text-[18px] font-bold">Obo мне</li>
+                <li class="text-[18px] font-bold">Занятия</li>
+                <li class="text-[18px] font-bold">Запись</li>
+            </ul>
+            <img class="lg:hidden" src="./burger.png" alt="">
+        </nav>
+        <section class="flex flex-col p-[30px] gap-[30px] lg:flex-row lg:items-center lg:gap-[0px]">
+            <img src="./Гитарист + фигуры.png" alt="">
+            <aside>
+                <img class="absolute ml-[150px]" src="./Subtract (1).png" alt="">
+                <img src="./Иконки.png" alt="">
+                <h1 class="text-[#000000] text-[30px] font-bold lg:text-[70px]">Я Виктор</h1>
+                <p class="text-[16px] font-[600]">Репетитор игры на гитаре c семилетним <br> опытом преподавания</p>
+                <div class="flex items-center gap-[20px]">
+                    <button class="py-[10px] px-[30px] text-white rounded-[15px] bg-[#F28B64]">Забронировать <br>
+                        урок</button>
+                    <img src="./вопрос.png" alt="">
+                </div>
+            </aside>
+        </section>
+    </header>
+</body>
+
+</html>
