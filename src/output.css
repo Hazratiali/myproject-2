@@ -562,92 +562,24 @@ video {
   position: relative;
 }
 
-.z-\[0\] {
-  z-index: 0;
-}
-
-.m-auto {
-  margin: auto;
-}
-
-.ml-\[50px\] {
-  margin-left: 50px;
-}
-
-.ml-\[150px\] {
-  margin-left: 150px;
-}
-
-.ml-\[800px\] {
-  margin-left: 800px;
-}
-
-.ml-\[1000px\] {
-  margin-left: 1000px;
-}
-
-.mb-\[200px\] {
-  margin-bottom: 200px;
-}
-
-.mb-\[400px\] {
-  margin-bottom: 400px;
-}
-
-.ml-\[1200px\] {
-  margin-left: 1200px;
-}
-
-.ml-\[1050px\] {
-  margin-left: 1050px;
+.mb-\[420px\] {
+  margin-bottom: 420px;
 }
 
 .ml-\[1120px\] {
   margin-left: 1120px;
 }
 
-.mt-\[300px\] {
-  margin-top: 300px;
+.ml-\[1155px\] {
+  margin-left: 1155px;
+}
+
+.ml-\[150px\] {
+  margin-left: 150px;
 }
 
 .mt-\[350px\] {
   margin-top: 350px;
-}
-
-.ml-\[200px\] {
-  margin-left: 200px;
-}
-
-.mb-\[00px\] {
-  margin-bottom: 00px;
-}
-
-.mb-\[550px\] {
-  margin-bottom: 550px;
-}
-
-.mb-\[450px\] {
-  margin-bottom: 450px;
-}
-
-.ml-\[1100px\] {
-  margin-left: 1100px;
-}
-
-.mb-\[430px\] {
-  margin-bottom: 430px;
-}
-
-.ml-\[1150px\] {
-  margin-left: 1150px;
-}
-
-.mb-\[420px\] {
-  margin-bottom: 420px;
-}
-
-.ml-\[1155px\] {
-  margin-left: 1155px;
 }
 
 .flex {
@@ -670,16 +602,16 @@ video {
   justify-content: space-between;
 }
 
-.gap-\[50px\] {
-  gap: 50px;
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .gap-\[30px\] {
   gap: 30px;
 }
 
-.gap-\[20px\] {
-  gap: 20px;
+.gap-\[50px\] {
+  gap: 50px;
 }
 
 .gap-\[5px\] {
@@ -695,50 +627,21 @@ video {
   background-color: rgb(242 139 100 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
 .bg-\[\#f4f4f5\] {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
-}
-
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[30px\] {
-  padding: 30px;
 }
 
 .p-\[20px\] {
   padding: 20px;
 }
 
-.px-\[100px\] {
-  padding-left: 100px;
-  padding-right: 100px;
+.p-\[30px\] {
+  padding: 30px;
 }
 
-.py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.py-\[20px\] {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.px-\[1px\] {
-  padding-left: 1px;
-  padding-right: 1px;
+.p-\[\] {
+  padding: ;
 }
 
 .px-\[20px\] {
@@ -746,9 +649,9 @@ video {
   padding-right: 20px;
 }
 
-.px-\[40px\] {
-  padding-left: 40px;
-  padding-right: 40px;
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .py-\[10px\] {
@@ -756,9 +659,9 @@ video {
   padding-bottom: 10px;
 }
 
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .text-center {
@@ -769,8 +672,8 @@ video {
   text-align: start;
 }
 
-.font-\[\] {
-  font-family: ;
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[18px\] {
@@ -781,29 +684,12 @@ video {
   font-size: 30px;
 }
 
-.text-\[16px\] {
-  font-size: 16px;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
 .font-\[600\] {
   font-weight: 600;
 }
 
-.leading-\[30p\] {
-  line-height: 30p;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
+.font-bold {
+  font-weight: 700;
 }
 
 .text-\[\#000000\] {
@@ -811,13 +697,14 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 1024px) {
   .lg\:m-auto {
     margin: auto;
-  }
-
-  .lg\:ml-\[1120px\] {
-    margin-left: 1120px;
   }
 
   .lg\:block {
@@ -830,14 +717,6 @@ video {
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .lg\:w-\[900px\] {
-    width: 900px;
   }
 
   .lg\:w-\[1200px\] {
@@ -856,40 +735,21 @@ video {
     justify-content: center;
   }
 
-  .lg\:gap-\[10px\] {
-    gap: 10px;
-  }
-
   .lg\:gap-\[0px\] {
     gap: 0px;
-  }
-
-  .lg\:gap-\[50px\] {
-    gap: 50px;
   }
 
   .lg\:gap-\[80px\] {
     gap: 80px;
   }
 
-  .lg\:px-\[20px\] {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .lg\:px-\[0px\] {
-    padding-left: 0px;
-    padding-right: 0px;
+  .lg\:gap-\[50px\] {
+    gap: 50px;
   }
 
   .lg\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
-  }
-
-  .lg\:py-\[\] {
-    padding-top: ;
-    padding-bottom: ;
   }
 
   .lg\:py-\[30px\] {
